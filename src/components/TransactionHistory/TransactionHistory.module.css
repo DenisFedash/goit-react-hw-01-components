@@ -1,0 +1,67 @@
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.link {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+.transactionHistory {
+  width: 500px;
+  margin: 50px auto;
+  background-color: #fff;
+  border-radius: 7px;
+  box-shadow: 0 0 5px #00000033;
+  border-collapse: collapse;
+}
+
+.transactionHistory thead {
+  background-color: rgb(45, 180, 214);
+  color: #fff;
+  /* font-family: sans-serif; */
+  font-size: 12px;
+  text-transform: uppercase;
+  border-radius: 5px 5px 0 0;
+}
+
+.transactionHistory thead th {
+  text-align: center;
+  padding: 10px;
+  border-right: 1px solid #ebebeb;
+}
+
+.transactionHistory thead th:last-child {
+  border-right: none;
+}
+
+.transactionHistory thead th:first-of-type {
+  border-top-left-radius: 5px;
+}
+
+.transactionHistory thead th:last-of-type {
+  border-top-right-radius: 5px;
+}
+
+/* .transactionHistory tbody tr:nth-child(odd) {
+  background-color: #efefef;
+} */
+
+.transactionHistory tbody td {
+  padding: 10px;
+  text-align: center;
+  font-size: 13px;
+  border-right: 1px solid #ebebeb;
+}
+
+.transactionHistory tbody td:last-child {
+  border-right: none;
+}

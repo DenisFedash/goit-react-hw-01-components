@@ -1,0 +1,36 @@
+.item {
+  display: flex;
+  flex-wrap: nowrap;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 8px;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.online {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin: auto 15px;
+  border-radius: 50%;
+  background-color: green;
+}
+
+.offline {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin: auto 15px;
+  border-radius: 50%;
+  background-color: rgb(228, 40, 15);
+}
+
+.avatar {
+  margin-right: 15px;
+}
+
+.name {
+  font-family: sans-serif;
+  font-weight: bold;
+}
